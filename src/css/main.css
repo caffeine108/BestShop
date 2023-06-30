@@ -63,6 +63,155 @@ html, body {
 }
 
 
+.intro {
+    height: 52.625rem;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.intro__bg {
+    display: flex;
+    justify-content: center;
+}
+
+.intro__box {
+    display: flex;
+    flex-direction: column;
+    width: 27.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8.125rem;
+
+}
+.h1 {
+
+}
+.main__title {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 3.0625rem;
+    margin-bottom: 1.25rem;
+    color: var(--color-black);
+    padding-top: 0;
+
+
+}
+.p__main {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-black);
+    margin-bottom: 2.347rem;
+
+}
+.main__button {
+    padding: 1.375rem;
+    border-radius: 2.5rem;
+    background-color: var(--color-primary);
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-white);
+    cursor: pointer;
+
+}
+
+.stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6.25rem;
+    padding-bottom: 7.625rem;
+}
+
+.stat__wrapper {
+
+}
+
+.stat__title {
+    font-family: Raleway, sans-serif;
+    font-size:; 2.25rem;
+    font-weight: 400;
+    color: var(--color-black);
+    margin-bottom: 6.25rem;
+}
+
+
+.stat-item__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.stat__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ellipse__holder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.ellipse {
+    width: 3.919375rem;
+    height: 3.919375rem;
+    border-radius: 50%;
+    background-color: var(--color-redish);
+}
+
+.ellipse.ellipse__blue {
+    background-color: var(--color-primary);
+}
+
+.ellipse.ellipse__green {
+    background-color: var(--color-green);
+}
+
+
+.ellipse__img {
+    position: absolute;
+    left: 32px;
+}
+
+.ellipse__img.ellipse--eye {
+    position: absolute;
+    left: 20px;
+
+}
+
+.stat__number {
+    font-family: Raleway, Sans sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--color-black);
+    margin-top:0.925rem;
+    margin-bottom: 1.19375rem;
+    letter-spacing: 0.3725rem;
+}
+
+
+.stat__desc {
+    font-family: Raleway, Sans sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    color: var(--color-grey);
+    margin-top: 0;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
 
 
 
