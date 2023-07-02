@@ -448,11 +448,156 @@ html, body {
 
 /* tło na całość kontebera z ramką stałą */
 
+/* CSS Pricing */
+
+.price__form {
+    height: 200vh;
+    padding-top: 6.25rem;
+}
+.price__wrapper {}
+
+.price__title--wrapper{
+    text-align: center;
+    margin-bottom: 3.125rem;
+}
+.price__title {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 2.25rem;
+    color: var(--color-black);
+    margin-bottom: 0;
+
+}
+
+
+.price__cards--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.75rem;
+
+
+}
+.card__price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.25rem;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+
+}
+
+.card__price.card--blue {
+    height: 31.25rem; /* uwaga ta karta jest wyższa od pozostałych */
+    border: 1px solid var(--color-primary);
+    box-shadow: 5px 10px 27px #07ACE629;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__price.card--green {
+    border: 1px solid var(--color-green);
+}
+
+.price__sub--title {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-black);
+    margin: 0;
+    padding-top: 2.125rem;
+    padding-bottom: .9375rem;
+
+}
+
+.price__name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2.875rem;
+    color: var(--color-redish);
+    margin: 0;
+    padding-bottom: 4.3125rem;
+}
+.price__name-limited {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: .75rem;
+    padding-bottom: 3.8125rem;
+    margin: 0;
+
+}
+.price__name-limited.pnl--small {
+    padding-bottom: 2.8125rem;
+}
+.price__name.pn--blue {
+    color: var(--color-primary);
+}
+.price__name.pn--green {
+    color: var(--color-green);
+}
+.price__name.pn--padding {
+    padding-bottom: .625rem;
+}
+.price__info--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    position: relative;
+}
+.price--info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price__info--wrapper.pi--newgap {
+    gap: 1.5625rem;
+}
+.price--info.pi--last {
+    padding-bottom: 4.4375rem;
+}
+.price__checkbox {
+    width: .6875rem;
+    height: .6875rem;
+    padding-right: .625rem;
+}
+.price__info--text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    color: var(--color-black);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.price__button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: .8125rem;
+    color: var(--color-white);
+    background-color: var(--color-redish);
+    border-radius: 1.4375rem;
+    padding: 1rem 3.5625rem;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -10%;
+}
+.price__button.pb--blue {
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: -74%;
+}
+.price__button.pb--green {
+    background-color: var(--color-green);
+    position: absolute;
+    bottom: -10%;
+}
 
 
 
 
-
+/* Form section */
 
 
 
