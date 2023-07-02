@@ -775,6 +775,8 @@ html, body {
 .footer__social {
     display: flex;
     gap: 1.25rem;
+    cursor: pointer;
+}
 }
 .twitter {}
 .facebook {}
