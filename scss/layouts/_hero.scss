@@ -1,0 +1,47 @@
+/* Hero section - CSS */
+
+.intro {
+  height: 52.625rem;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.intro__bg {
+  display: flex;
+  justify-content: center;
+}
+.intro__box {
+  padding-top: 8.125rem;
+  display: flex;
+  flex-direction: column;
+  width: 27.5rem;
+  align-items: center;
+}
+.main__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.0625rem;
+  font-weight: 400;
+  color: var(--color-black);
+  margin-bottom: 1.25rem;
+  margin-top: 0;
+}
+.pmain {
+  font-size: 1rem;
+  color: var(--color-black);
+  margin-bottom: 2.375rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.mbutton {
+  padding: 1.375rem;
+  border-radius: 2.5rem;
+  background-color: var(--color-primary);
+  width: 100%;
+  text-align: center;
+  color: var(--color-white);
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}

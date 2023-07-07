@@ -1,0 +1,126 @@
+/* Statistics */
+
+
+.stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6.25rem;
+  padding-bottom: 7.625rem;
+}
+
+.stat__wrapper {
+  display: compact;
+  justify-content: space-between;
+
+}
+
+.stat__title {
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: var(--color-black);
+  margin-bottom: 6.25rem;
+}
+
+
+.stat-item__wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  flex-wrap: wrap;
+
+}
+
+
+.stat__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ellipse__holder {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.ellipse {
+  width: 3.919375rem;
+  height: 3.919375rem;
+  border-radius: 50%;
+  background-color: var(--color-redish);
+}
+
+.ellipse.ellipse__blue {
+  background-color: var(--color-primary);
+}
+
+.ellipse.ellipse__green {
+  background-color: var(--color-green);
+}
+
+
+.ellipse__img {
+  position: absolute;
+  left: 32px;
+}
+
+.ellipse__img.ellipse--eye {
+  position: absolute;
+  left: 20px;
+
+}
+
+.stat__number {
+  font-family: Raleway, Sans sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-black);
+  margin-top:0.925rem;
+  margin-bottom: 1.19375rem;
+  letter-spacing: 0.3725rem;
+}
+
+
+.stat__desc {
+  font-family: Raleway, Sans sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: var(--color-grey);
+  margin-top: 0;
+  text-align: center;
+
+}
+
+@media (max-width: 850px) {
+  .stat {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.75rem; /* Dostosuj wartość */
+    padding-bottom: 4.75rem; /* Dostosuj wartośc */
+  }
+
+  .stat__wrapper {
+    text-align: center;
+  }
+
+  .stat__title {
+    margin-bottom: 3.75rem; /* Dostosuj  */
+    font-size: 1.875rem;
+    line-height: 35px;
+  }
+
+  .stat-item__wrapper {
+    column-gap: 3.125rem; /* Dostosuj  */
+    flex-wrap: wrap;
+  }
+
+  .stat__card {
+    width: 100%; /* ustalam szerokosc na 100% */
+    max-width: 11rem; /* dostosowane */
+    margin-bottom: 0.5rem;   /* dostosowane, sciesnione */
+  }
+
+}
